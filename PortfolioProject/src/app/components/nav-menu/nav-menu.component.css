@@ -2,6 +2,33 @@ a,
 li {
   text-decoration: none;
 }
+
+.desktop-nav {
+  display: initial;
+}
+.display-none {
+  display: none;
+}
+
+.sidebar-container {
+  position: fixed;
+  display: initial;
+  height: 30vh;
+  width: 350px;
+  z-index: 10;
+}
+
+.sidebar-toggle {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 112px;
+  margin: 40px;
+  padding: 10px;
+}
+
 .sidebar-items {
   position: fixed;
   z-index: 10;
