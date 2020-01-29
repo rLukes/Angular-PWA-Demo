@@ -41,6 +41,22 @@ video {
   font-size: 5rem;
 }
 
+.social-icons {
+  position: absolute;
+  top: 60%;
+}
+.social-icons fa-icon {
+  font-size: 3rem;
+  color: white;
+  padding: 7.5px 15px;
+  cursor: pointer;
+}
+
+.social-icons fa-icon:hover {
+  color: #202020;
+  background-color: wheat;
+}
+
 /* -- about section --------------- */
 
 /* -- projects section ---------------*/
