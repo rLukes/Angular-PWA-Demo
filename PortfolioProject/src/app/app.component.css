@@ -130,8 +130,31 @@ video {
 }
 /* -- contact section -------------- */
 #contact {
-  background-color: red;
+  background-color: black;
+  display: flex;
+  justify-content: center;
 }
+.contact-mail {
+  position: absolute;
+  color: white;
+  height: 100px;
+  font-family: alex-brush, sans-serif;
+  font-size: 4rem;
+  margin-top: 10vh;
+  z-index: 2;
+}
+.contact-mail:hover {
+  text-decoration: underline;
+  transition: 0.5s ease-in-out;
+}
+#video-backgroud-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
 /* --  footer section --------------- */
 #footer {
   background-color: purple;
