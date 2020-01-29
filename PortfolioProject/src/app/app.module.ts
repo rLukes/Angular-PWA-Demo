@@ -16,10 +16,12 @@ import {
   faLinkedin,
   faMedium
 } from "@fortawesome/free-brands-svg-icons";
+import { AboutComponent } from './components/about/about.component';
+import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 library.add(faGithub, faCodepen, faInstagram, faYoutube, faLinkedin, faMedium);
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AboutComponent, NavMenuComponent],
   imports: [
     FontAwesomeModule,
     BrowserModule,

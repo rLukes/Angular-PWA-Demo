@@ -1,3 +1,13 @@
+section {
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+}
+
+a,
+li {
+  text-decoration: none;
+}
 /*home section*/
 
 #home {
@@ -58,7 +68,21 @@ video {
 }
 
 /* -- about section --------------- */
+#about {
+  background-color: dodgerblue;
+}
 
 /* -- projects section ---------------*/
+#project {
+  background-color: orange;
+}
 /* -- contact section -------------- */
+#contact {
+  background-color: red;
+}
 /* --  footer section --------------- */
+#footer {
+  background-color: purple;
+  min-height: unset;
+  height: 150px;
+}
